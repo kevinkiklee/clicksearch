@@ -1,7 +1,7 @@
 {
-  "name": "searchfast",
-  "version": "1.0.0",
-  "description": "A Chrome extension that enables the user to Google search the highlighted words in a new tab.",
+  "name": "quicksearch",
+  "version": "0.0.2",
+  "description": "Chrome Extension for quickly searching highlighted text",
   "main": "background.js",
   "dependencies": {},
   "devDependencies": {
@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevinkiklee/searchfast.git"
+    "url": "git+https://github.com/kevinkiklee/quicksearch.git"
   },
   "keywords": [],
   "author": "Kevin K. Lee <kevin.kik.lee@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kevinkiklee/searchfast/issues"
+    "url": "https://github.com/kevinkiklee/quicksearch/issues"
   },
-  "homepage": "https://github.com/kevinkiklee/searchfast#readme"
+  "homepage": "https://github.com/kevinkiklee/quicksearch#readme"
 }
