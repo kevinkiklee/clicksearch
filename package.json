@@ -3,17 +3,18 @@
   "version": "1.0.0",
   "description": "A Chrome extension that enables the user to Google search the highlighted words in a new tab.",
   "main": "background.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
+    "faucet": "0.0.1",
     "tape": "^4.8.0",
     "webpack": "^3.8.1"
   },
   "scripts": {
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "test": "tape test/*.js | faucet"
   },
   "repository": {
     "type": "git",
