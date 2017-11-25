@@ -1,4 +1,5 @@
 background.js.map
-inject.js.map
+content.js.map
 background.js
-inject.js
+content.js
+webpack.config.js

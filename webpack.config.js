@@ -4,7 +4,7 @@ var webpack = require('webpack')
 module.exports = {
   entry: {
     background: './lib/background.js',
-    inject: './lib/inject.js'
+    content: './lib/content.js'
   },
   output: {
     filename: '[name].js',

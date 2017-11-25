@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "SearchFast Chrome Extension",
+  "name": "ClickSearch",
   "version": "0.0.1",
   "description": "Open a new tab with Cmd/Ctrl+Click",
   "icons": {
@@ -15,7 +15,6 @@
     "browsingData",
     "cookies",
     "tabs",
-    "privacy",
     "http://*/*",
     "https://*/*"
   ],
@@ -23,5 +22,15 @@
     "scripts": [
       "background.js"
     ]
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
 }
