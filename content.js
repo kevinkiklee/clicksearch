@@ -11,7 +11,7 @@ body.addEventListener('click', function(event) {
 
       chrome.runtime.sendMessage({
         url: url,
-        shouldFocus: shouldFocus
+        active: shouldFocus
       })
     }
   }
