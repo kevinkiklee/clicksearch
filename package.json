@@ -1,0 +1,29 @@
+{
+  "name": "searchfast",
+  "version": "1.0.0",
+  "description": "A Chrome extension that enables the user to Google search the highlighted words in a new tab.",
+  "main": "background.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "tape": "^4.8.0",
+    "webpack": "^3.8.1"
+  },
+  "scripts": {
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinkiklee/searchfast.git"
+  },
+  "keywords": [],
+  "author": "Kevin K. Lee <kevin.kik.lee@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinkiklee/searchfast/issues"
+  },
+  "homepage": "https://github.com/kevinkiklee/searchfast#readme"
+}
