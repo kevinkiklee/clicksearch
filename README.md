@@ -1,7 +1,7 @@
 # QuickSearch
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=lyFejfKJWZQ
-" target="_blank"><img src="http://img.youtube.com/vi/lyFejfKJWZQ/0.jpg"
-alt="QuickSearch Screencast" width="360" height="240" border="0" /></a>
+
+[![Screencast](http://img.youtube.com/vi/lyFejfKJWZQ/0.jpg)](http://www.youtube.com/watch?v=lyFejfKJWZQ)
+
 
 **Chrome extension for quickly searching highlighted text**
 [Chrome Web Store](https://chrome.google.com/webstore/detail/clicksearch/ffkkikfngfopgdacpankegfcjkcnkjle?hl=en-US&gl=US)
