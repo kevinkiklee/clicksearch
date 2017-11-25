@@ -1,6 +1,6 @@
-var test = require('tape')
-var background = require('../lib/background')
+import test from 'tape'
+import background from '../lib/background'
 
-test('timing test', function (t) {
-  t.end()
+test('timing test', t => {
+	t.end()
 })

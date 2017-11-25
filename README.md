@@ -1,4 +1,4 @@
-# SearchFast Chrome Extension
+# ClickSearch
 A Chrome extension that enables the user to Google search the highlighted words in a new tab.
 
 ### Installation
