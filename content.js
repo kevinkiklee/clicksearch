@@ -6,7 +6,7 @@ body.addEventListener('click', function(event) {
 
     if (selectedString) {
       var shouldFocus = event.shiftKey
-      var queryString = selectedString.split(' ').join('+')
+      var queryString = encodeURIComponent(selectedString)
       var url = 'https://www.google.com/search?q=' + queryString
 
       chrome.runtime.sendMessage({
