@@ -1,0 +1,5 @@
+./test/*
+background.js.map
+inject.js.map
+background.js
+inject.js

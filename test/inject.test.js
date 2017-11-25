@@ -1,5 +1,5 @@
-var test = require('tape');
+var test = require('tape')
 
 test('timing test', function (t) {
-  t.end();
-});
+	t.end()
+})
